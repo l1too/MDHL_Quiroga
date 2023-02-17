@@ -291,6 +291,13 @@ fieldset legend, fieldset p, .permission label{
         justify-content: center;
     }
 
+    .about-text{
+        background-color:rgb(253, 184, 138) ;
+    }
+    .card-text-3{
+        background-color: rgb(253, 184, 138);
+    }
+
 }
 @media (max-width:598px){
     .navigation{
