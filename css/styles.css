@@ -305,3 +305,9 @@ fieldset legend, fieldset p, .permission label{
         justify-content: center;
     }
 }
+@media (max-width:521px){
+    .footer p {
+    
+        font-size: .8rem;
+    }
+}
