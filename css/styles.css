@@ -260,3 +260,41 @@ ul li{
     margin-top: 1rem;
     padding: 1rem;
 }
+
+/* Form */
+form{
+    padding: 1rem;
+}
+fieldset input[type="text"], input[type="date"],input[type="number"]{
+    display: flex;
+    flex-direction: column;
+}
+fieldset legend, fieldset p, .permission label{
+    font-weight: bold;
+}
+.form, input{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.iframe{
+    margin: 2rem 0;
+}
+
+@media (max-width:978px) {
+    .subt-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards{
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+@media (max-width:598px){
+    .navigation{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
